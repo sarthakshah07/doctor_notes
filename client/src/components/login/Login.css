@@ -1,0 +1,272 @@
+
+.loginpage{
+    /* background-image: url("../../../public/logback.png");
+    background-repeat: no-repeat;
+    background-size: 100%; */
+    position: fixed;
+    height: 100%;
+    width: 100%;
+    /* transform: scale(1.); */
+    /* padding: 100%; */
+    background-color: rgb(250, 219, 155);
+}
+.back{
+    margin: 0;
+    width: 60%;
+    height: 90vh;
+    /* opacity: .6; */
+    position: absolute;
+    top:5%;
+    left: 5%;
+        /* background-color: rgb(219, 14, 226); */
+        /* border: 1px solid black; */
+        background-image: url("/public/logback.png");
+        background-repeat: no-repeat;
+        background-size:contain;
+        
+     /* filter: blur(.5px); */
+    /* -webkit-filter: blur(10px); */ 
+    
+   
+}
+.loginExtend{
+    border: 1px solid rgb(54, 178, 254);
+    width: 12%;
+    height: 50%;
+    position: fixed;
+    left: 63%;
+    top:30% ;
+    border-radius: 10%;
+    background-color: rgb(54, 178, 254);
+    display: flex;
+    justify-content: end;
+    text-align: end;
+    align-items: center;
+    padding-right: 10px;
+    transition: all 1s ease-in-out;
+    /* visibility: visible; */
+    /* transition-delay: width 2s ease-in;s */
+    box-shadow: 1px 1px 5px 5px slategray;
+    border-color: blue;
+    /* scale: 1; */
+    
+}
+.loginExtend:hover{
+    transition: all 1s ease-in-out;
+    /* transition: all 1s; */
+    min-width: 13%;
+    /* scale: 1.05; */
+    
+}
+.loginExtend a{
+    cursor: pointer;
+    /* white-space: nowrap; */
+}
+#forgotP{
+    position: absolute;
+    top: 80%;
+    font-weight: lighter;
+    font-size:small;
+}
+.loginForm{ 
+    border: 1px solid black;
+    width: 30%;
+    height: 60%;
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+    /* text-align: center; */
+    flex-direction: column;
+    /* padding: 2%; */
+    position: fixed;
+    left: 35%;
+    top:25% ;
+    border-radius: 10%;
+    border-color: blue;
+    background-color:white;
+    box-shadow:15px 10px 20px gray;
+    visibility: visible;
+    transition: all 1s ease-in-out;
+    scale: 1;
+    
+}
+
+.loginForm svg{
+    position: absolute;
+    top: -1%;
+    transform: scale(8);
+    background-color: aliceblue;
+    color: rgb(54, 178, 254);
+    border-radius: 50%;
+   
+}
+#cross{
+    position: absolute;
+    top: 6%;
+    right: 10%;
+    transform: scale(.3);
+    cursor: pointer;
+}
+
+.loginForm h1{
+    position: absolute;
+    top: 25%;
+    text-shadow: 10px 0px 10px rgb(54, 178, 254) ;
+}
+.frm{
+    display: flex;
+    text-align: left;
+    
+    flex-direction: column;
+    font-size: large;
+    position: absolute;
+    top: 55%;
+    width: 100%;
+    /* border:  1px solid red; */
+}
+
+.frm input{
+    position: absolute;
+    right: 5%;
+    height: 30%;
+    border-radius: 10%;
+    text-align: center;
+}
+.frm label{
+    margin-left: 10%;
+}
+.frm button{
+    width: 50%;
+    position: absolute;
+    margin-top: 5%;
+    top: 100%;
+    left:25%;
+    padding: 2%;
+    border-radius: 17%;
+    box-shadow: 1px 1px 15px black;
+}
+.frm button:hover{
+    background-color: rgb(49, 164, 236);
+    color: aliceblue;
+    box-shadow: 1px 1px 10px red;
+    outline-color: black;
+}
+
+/* registration css */
+.registrationExtend{
+    border: 1px solid rgb(54, 178, 254);
+    width: 10%;
+    height: 55%;
+    position: fixed;
+    left: 30%;
+    top:30% ;
+    border-radius: 10%;
+    background-color: rgb(54, 178, 254);
+    display: flex;
+    
+    justify-content: start;
+    text-align: start;
+    align-items: center;
+    padding-left: 10px;
+    flex-wrap: nowrap;
+    /* transition: width  4s; */
+    visibility: visible;
+    transition:  1s ease-in-out;
+    scale: 0;
+    box-shadow: 1px 1px 5px 5px slategray;
+    border-color: blue;
+}
+.registrationExtend:hover{
+    left: 29%;
+    transition: .5s;
+}
+.registrationExtend a{
+    cursor: pointer;
+}
+.registerForm{
+    border: 1px solid black;
+    width: 30%;
+    height: 67%;
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+    /* text-align: left; */
+    flex-direction: column;
+    /* padding: 2%; */
+    position: fixed;
+    left: 35%;
+    /* left: 0; */
+    top:25% ;
+    border-radius: 10%;
+    box-shadow: 1px 1px 5px 5px  gray ;
+    /* transform: scale(1); */
+    /* box-shadow: 5px 5px 10px gray inherit; */
+    transition:  1s ease-in-out;
+    border-color: gray;
+    background-color:white;
+    visibility:visible;
+    scale: 0;
+}
+#cross2{
+    position: absolute;
+    top: 12%;
+    right: 10%;
+    transform: scale(.3);
+    cursor: pointer;
+    visibility: visible;
+}
+.registerForm svg{
+    position: absolute;
+    top: -1%;
+    transform: scale(8);
+    background-color: aliceblue;
+    color: rgb(54, 178, 254);
+    border-radius: 50%;
+   
+}
+.registerForm h1{
+    
+    position: absolute;
+    top: 15%;
+    text-shadow: 10px 0px 10px rgb(54, 178, 254) ;
+}
+.registerForm input{
+    
+    position: absolute;
+    height: 6%;
+}
+.frm2{
+    display: flex;
+    text-align: left;
+    
+    flex-direction: column;
+    font-size: large;
+    position: absolute;
+    top: 30%;
+    width: 100%;
+    /* border:  1px solid red; */
+}
+
+.frm2 input{
+    position: absolute;
+    right: 5%;
+    height: 10%;
+    border-radius: 10%;
+    text-align: center;
+}
+.frm2 label{
+    margin-left: 10%;
+}
+.frm2 button{
+    width: 50%;
+    position: absolute;
+    top: 95%;
+    left:25%;
+    padding: 2%;
+    border-radius: 17%;
+    box-shadow: 1px 1px 15px black;
+}
+.error {
+    color: red;
+    font-size: 12px;
+  }

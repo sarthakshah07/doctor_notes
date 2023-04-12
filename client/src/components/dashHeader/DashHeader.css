@@ -1,0 +1,76 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.header1{
+    position:fixed;
+    top: 0;
+    margin: 0;
+    height: 15vh;
+    width: 100%;
+    background-color: rgb(57, 131, 215);
+    
+    /* background-color: beige; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 1px solid black;
+    box-shadow: 5px 5px 10px slategray;
+    z-index: 20;
+    
+}
+
+.logo1 {
+    /* border: 1px solid black; */
+    position: fixed;
+    left: 5%;
+    transform: scale(3);
+    color: rgb(0, 0, 0);
+}
+.logo1 svg{
+    color: black;
+}
+.heading1{
+    position: fixed;
+    left: 14%;
+    font-style: italic;
+    opacity: 60%;
+    font-family: Arial, Helvetica, sans-serif;
+    text-shadow: 1px 1px 20px rgb(0, 17, 116);
+}
+.heading1 span{
+    color: red;
+    font-size: 120%;
+}
+.anch2 {
+    position: absolute;
+    right: 7%;
+    display: flex;
+    flex-direction: row;
+    
+   
+
+}
+.anch2 a{
+    font-size: 100%;
+    /* position: fixed; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* margin-left: 40%; */
+    width: 50%;
+    color: black;
+    /* border-bottom: 3px solid black; */
+    cursor: pointer;
+}
+.anch2 a svg{
+    /* position: fixed; */
+    transform: scale(2);
+    margin-bottom: 30%;
+    color: rgb(4, 4, 103);
+    border-bottom: 1px solid black;
+}
+
+
+

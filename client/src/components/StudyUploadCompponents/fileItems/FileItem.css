@@ -1,0 +1,107 @@
+.list-item{
+    margin: 15px;
+   width:500px;
+   position:relative;
+    justify-content: left;
+    display: flex;
+    flex-direction: row;
+    flex: 10;
+    padding: 10px;
+    color: rgb(252, 248, 248);
+    background: #d1effa; 
+    background: -webkit-linear-gradient(to right, #ffffff, #d1effa);
+   background: linear-gradient(to right, #ffffff, #d1effa);
+    
+    /* border: 1px solid rgb(77, 72, 72);  */
+} 
+
+
+p{
+    padding-left:0px;
+    flex: 1;
+    margin-right: 10px;
+    /* border: 1px solid red; */
+}
+svg{
+
+    color: rgb(98, 122, 176);
+    /* margin-left: 20px;
+    margin-right: 5px; */
+
+}
+.actions{
+     display: flex;
+    flex-wrap: nowrap; 
+    /* justify-content: left; */
+    /* cursor: pointer;  */
+    /* border: 1px solid red; */
+
+   
+}
+.FileName{
+    width:320px;
+    font-size: small;
+    position:absolute;
+    display: inline-block;
+    /* justify-content: left; */
+    /* align-items: center; */
+    text-align: left;
+    border: 1px none;
+    margin-left: 30px;
+    /* word-wrap: break-word; */
+    overflow-wrap: break-word;
+    /* overflow-x:scroll; */
+}
+.FileName a{
+    color: rgb(21, 20, 20);
+}
+.FileName a:hover{
+    color: brown;
+}
+.del{
+    /* position: relative; */
+    margin-left: 370px;
+    /* margin-right: 40px; */
+    position: absolute;
+    white-space:nowwrap;
+    cursor: pointer;
+    scale: 1.2;
+}
+.down{
+    margin-left: 450px;
+   position: absolute;
+    /* flex-direction: column; */
+   cursor: pointer;
+   scale: 1.2;
+
+}
+.del :hover{
+    color: brown;
+    
+}
+.down :hover{
+    color: brown;
+}
+.viewFile{
+    position: absolute;
+    left: 60%;
+    top: 20%;
+    scale: 1.;
+    color: black;
+    font-size: small;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+.viewFile svg{
+    scale: 2;
+    position: absolute;
+    left: 20%;
+}
+.viewFile svg:hover{
+    color: brown;
+}
+.viewFile :hover{
+    color: brown;
+}

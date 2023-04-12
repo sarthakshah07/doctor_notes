@@ -1,0 +1,444 @@
+
+
+.containerAdd{
+    display: flex;
+    position:absolute;
+    flex-direction: row;
+    top: 15.1%;
+    /* left: 15.5%; */
+    min-width: 100%;
+    height: 250%;
+    max-height: 250%;
+    justify-content: center;
+    background-color: rgb(178, 247, 247);
+    background-color: rgb(210, 210, 245);
+}
+.containerAdd h1{
+    position: absolute;
+    left: 20%;
+    top: 2%;
+    color:slategrey;
+    font-size: 300%;
+    text-shadow: 5px 5px 10px rgb(122, 105, 234);
+}
+.addcontainer{
+     /* border: 1px solid black; */
+     height: fit-content;
+     position: absolute;
+     top: 16%;
+     left: 10%;
+     height: 100%;
+     width: 80%;
+     display: flex;
+     flex-direction: column;
+     /* flex-wrap: wrap-reverse; */
+     justify-content: center;
+     align-items: center;
+     /* padding: 5%; */
+     /* border-radius: 200%; */
+     position: relative;
+     z-index: 0;
+     /* background-color: tomato; */
+    
+}  
+.addcontainer button{
+    scale: 5;
+    background: none;
+    border: none;
+    padding: 7%;
+    position: absolute;
+    top: 0%;
+    
+    cursor: pointer;
+    /* border-radius: 50%; */
+}
+
+.addcontainer svg{
+    scale: 10;
+    /* padding: 5%; */
+    /* box-shadow: 3px 3px 10px goldenrod; */
+    background: none;
+    
+}
+
+.formContainer{
+
+    /* border: 1px solid rgb(220, 13, 127); */
+    display: flex;
+    flex-direction: column;
+    flex: content;
+    /* display:inline-block; */
+    /* display:contents; */
+    
+
+    /* height: 20%; */
+    justify-content: center;
+    align-items: center;
+    /* height: 100%; */
+    width: 70%;
+    height: 60%;
+    /* height: fit-content; */
+    position: relative;
+    top: 1%;
+    /* background-color: black; */
+
+ 
+    
+}
+.formBox{
+    position: absolute;
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+    /* background-color: yellow; */
+    /* display:grid; */
+    /* grid-template-columns:  40% 40%; */
+    /* grid-template-columns:  60%; */
+    /* gap: 1px; */
+    width: 90%;
+    top: 0;
+    margin-bottom: 10%;
+   
+}
+.form{
+    
+    /* flex-direction: row; */
+    justify-content:space-evenly;
+    justify-content: left;
+    align-items:flex-start;
+    /* text-align:baseline; */
+    border: 1px solid rgb(0, 0, 0);
+    border-radius: 5%;
+    /* height: fit-content; */
+    height: 100%;
+    width: 90%;
+    
+    /* width: fit-content; */
+    background-color: aqua;
+    background-color:thistle;
+    background: #6190E8;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #A7BFE8, #6190E8);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #A7BFE8, #6190E8); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    box-shadow: 4px 4px 10px  slategray;
+    scale: 1;
+}
+.form h2{
+    border:  1px solid rgb(0, 0, 0);
+    border-bottom: none;
+    width: 50%;
+    /* padding: 1%; */
+    background-color: aqua;
+    background: #6190E8;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #A7BFE8, #6190E8);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #A7BFE8, #6190E8); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+    position: absolute;
+    top: -3.0%;
+    /* top: -5%; */
+    border-radius: 20%;
+    left: 25%;
+    text-align: center;
+    /* left: 0; */
+
+}
+.form label{
+    display: flex;
+    flex-direction:column;
+    align-items: center;
+    justify-content: center;
+    /* border: 1px solid green; */
+    font-size: large;
+    margin-top: 5%;
+    width: 100%;
+    border: 1px solid yellow;
+    
+}
+.form label input{
+    scale: 1.3;
+    width: fit-content;
+    margin-top: 2%;
+    text-align: center;
+    margin-bottom: 1%;
+    border-radius: 5%;
+    border: none;
+    background-color: #c8d5eb;
+}
+.gender{
+    display: flex;
+    flex-direction:row;
+    /* border: 1px solid black; */
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+   /* margin-left: 50%; */
+
+}
+.gender label {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /* position: absolute; */
+    margin-left: 10px;
+    text-align: center;
+}
+#pDescription {
+    margin: 2%;
+    width: 400px;
+    width: 80%;
+    height: 200px;
+    text-align:start;
+    /* text-overflow: clip; */
+    word-wrap: break-word;
+        word-break: break-all;
+    /* opacity: .5; */
+}
+#pPresciption, #pPhoto{
+    margin-top: 3%;
+    margin-left: 25%;
+} 
+
+#result2{
+    position: absolute;
+    left: 0;
+
+    border: 1px solid red;
+    width: 100%;
+    height: max-content;
+    max-height: fit-content;
+    /* height: fit-content; */
+}
+#result{
+    border: 1px solid rgb(152, 8, 11);
+    background-color: aqua;
+    position: static;
+    width: 1%;
+    min-height: 10%;
+    min-width: 20%;
+    height: 5%;
+    /* left: 0; */
+    /* display: flex;
+    flex-direction: row;
+    justify-content: center; */
+    /* justify-content: space-evenly; */
+    /* position: relative;
+    display:flexbox;
+    justify-content: space-evenly;
+    justify-content: center;
+    align-items: center;
+    max-width: 5%;
+    gap: 1px;
+    min-height:10%; */
+    gap: 2px;
+}
+#result img{
+    scale: 1;
+    border: 5px solid rgb(155, 142, 155);
+    /* position: absolute;
+    max-width: 100%;
+    min-height: 5%; */
+    position: absolute;
+    width: 10%;
+    height: 90%;
+    
+}
+
+#patientresult{
+    display: flexbox;
+    flex-direction: row;
+    justify-content: space-evenly;
+    gap: 1px;
+    /* padding: 2px; */
+    /* border:  1px solid green; */
+    /* max-height: 120px; */
+    height: fit-content;
+
+}
+#patientresult img{
+    max-width: 3%;
+    /* height: inherit; */
+    /* max-height: 20%; */
+}
+
+.btnSub{
+    position: static;
+    margin-left: 20px;
+    /* border: 1px solid black; */
+    /* border: 1px solid red; */
+    width: 90%;
+    margin: 4%;
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: row;
+    box-shadow: 1px 1px 4px 4px slategray;
+    border-radius: 5%;
+}
+ #btnSubmit{
+    margin: 4%;
+    background-color: rgb(254, 250, 242);
+    height: fit-content;
+    padding: 3%;
+    box-shadow: 1px 1px 4px 4px slategray;
+    width: max-content;
+    border: 1px solid black;
+    display: block;
+    justify-content: center;
+    align-items: center;
+    border-radius: 25%;
+}
+#btnPreview{
+    margin: 4%;
+    background-color: rgb(254, 250, 242);
+    height: fit-content;
+    padding: 2%;
+    width: max-content;
+    border: 1px solid black;
+    display: block;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 1px 1px 4px 4px slategray;
+    border-radius: 25%;
+}
+#btnSubmit:hover{
+    background-color: rgb(242, 124, 39);
+    scale: 1.1;
+}
+#btnPreview:hover{
+    background-color: rgb(242, 124, 39);
+    scale: 1.1;
+}
+
+/* display------------------------------------------------------- */
+#cross{
+    position: absolute;
+    top: 5%;
+    color: rgb(144, 10, 10);
+}
+.insideDispContainer{
+    
+    
+    /* align-items:center; */
+    text-align: center;
+    border: 1px solid rgb(0, 0, 0);
+    border-radius: 5%;
+    /* height: fit-content; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+    height: 30%;
+    /* height: fit-content; */
+    width: 100%;
+    /* width: fit-content; */
+    background-color: aqua;
+    background-color:thistle;
+    background: #6190E8;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #A7BFE8, #6190E8);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #A7BFE8, #6190E8); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    box-shadow: 4px 4px 10px  slategray;
+    scale: 1;
+    position: absolute;
+    top: 0;
+    
+}
+.containerDisp{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    /* border: 1px solid red; */
+    height: 60%;
+    position: fixed;
+    top: 15%;
+}
+.prevDetails{
+    display: grid;
+
+    grid-template-columns: 50% 50% ;
+    /* grid-template-rows: 10%  ; */
+    align-items: center;
+    justify-content: space-around;
+   /* height:fit-content; */
+    height: fit-content;
+    height: 50%;
+    width: 100%;
+    /* grid-row: inherit; */
+    /* border: 1px solid red; */
+    /* background-color: rgb(192, 116, 116); */
+    margin-top: 0%;
+}
+.prevDetails p{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: justify;
+    /* border: 1px solid black; */
+    border-bottom: 2px solid black;
+    border-right: 1px solid black;
+    height: 100%;
+    width: 95%;
+    /* width: fit-content; */
+    /* width: 120%; */
+    /* height: inherit; */
+    margin-top: 10%;
+    margin-left: 3%;
+    color: rgb(15, 14, 14);
+    font-weight: light;
+    word-wrap: break-word;
+    word-break: break-all;
+}
+.prevDetails span{
+    margin-left: 2%;
+    color: red;
+}
+#desc{
+    border-bottom: 2px solid black;
+    /* border-right: 1px solid black; */
+    /* position: absolute; */
+    text-align: justify;
+    
+    margin-left: 1%;
+    padding: 1%;
+    width: 95%;
+    height:fit-content ;
+    word-wrap: break-word;
+    word-break: break-all;
+    position: absolute;
+    top:70%;
+    margin-bottom: 5%;
+}
+#resultPreview{
+    position: relative;
+    display:flex;
+    flex-direction: row;
+    border: 1px solid rgb(255, 77, 0);
+    /* height: 100%; */
+    height: inherit;
+    height: 90%;
+    margin-top: 2%;
+    scroll-behavior: smooth;
+
+    overflow-x: scroll;
+    overflow-y: scroll;
+   margin-right: 2%;
+}
+#resultPreview img{
+    border: 1px solid black;
+    min-width:100%;
+    
+    height: 100%;
+    scale: 1;
+    overflow: scroll;
+}
+#descripText{
+   font-weight: bold;
+   /* color: red; */
+   word-wrap: break-word;
+    word-break: break-all;
+}
+#descripText span{
+   font-weight: lighter;
+   word-wrap: break-word;
+    word-break: break-all;
+    
+}

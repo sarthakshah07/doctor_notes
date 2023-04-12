@@ -1,0 +1,92 @@
+.verticalBar{
+    position:fixed;
+    top: 15%;
+    width: 15%;
+    height: 700px;
+    background-color: whitesmoke;
+    /* border: 1px solid black; */
+    border-top: 1px solid black;
+    box-shadow: 3px 5px 15px black;
+}
+.insideBar{
+    position:fixed;
+    /* border: 1px solid black; */
+    border-top: 1px solid black;
+    box-shadow: 3px 0px 15px gray;
+    top: 15%;
+    width: 5%;
+    height: inherit;
+    background-color: rgb(57, 131, 215);
+    /* background-color:  rgb(178, 247, 247);
+    background-color: rgb(210, 210, 245); */
+}
+
+.divAnch{
+    position: fixed;
+    width: 15%;
+    margin-left: -45%;
+    height: 60%;
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+    z-index:10;
+    padding: 0%;
+    transition-delay: all .5s ease-in-out;
+}
+.divAnch p{
+    /* position: relative; */
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    border-color: rgb(5, 5, 6);
+    /* border: 2px solid yellow; */
+    height: 50%;
+    /* color: blue; */
+    /* font-size: y-large; */
+   
+    cursor: pointer;
+    text-decoration: none;
+    margin: 1%;
+    /* font-size: 0; */
+   
+    width: 90%;
+    
+    
+}
+
+.divAnch a{
+    position: relative;
+    height: 90%;
+    width: 0vh;
+    min-width: 0%;
+    display: flex;
+    text-size-adjust:initial ;
+    justify-content:center;
+    justify-content: safe;
+    align-items: center;
+    overflow:hidden;
+    transition: width .5s ease-out;
+    font-size: 80%;
+    border-left: 0;
+    border-radius: 1% 20% 1% 10%;
+    white-space:nowrap;
+    margin-left: -1%;
+    margin-right:1%;
+    background-color: rgb(57, 131, 215);
+    color: black;
+}
+.divAnch p:hover a{
+   box-shadow: 5px 5px 10px gray;
+   width: 90%;
+}
+
+.divAnch svg{
+    scale: 2;
+    margin-right: 13%;
+    margin-left: 10%;
+    color: rgb(11, 32, 50);
+}
+.divAnch a:hover{
+    color: red;
+    font-size: 90%;
+}

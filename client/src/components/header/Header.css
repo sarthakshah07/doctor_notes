@@ -1,0 +1,67 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.header{
+    position:fixed;
+    top: 0;
+    margin: 0;
+    height: 15vh;
+    width: 100%;
+    background-color: rgb(57, 131, 215);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 2px solid black;
+    z-index: 1;
+    /* opacity: .2; */
+    
+}
+
+.logo {
+    display: flex;
+    flex-direction: column;
+}
+.logo svg{
+    /* color: rgb(4, 4, 103); */
+}
+.heading{
+    position: fixed;
+    left: 14%;
+    font-style: italic;
+    opacity: 60%;
+    font-family: Arial, Helvetica, sans-serif;
+    text-shadow: 1px 1px 20px rgb(0, 17, 116);
+    
+    
+}
+.anch {
+    position: fixed;
+    right: 20%;
+    display: flex;
+    flex-direction: row;
+    /* width: 30%; */
+    color: black;
+
+}
+.anch a{
+    font-size: 100%;
+    /* position: fixed; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-left: 40%;
+    width: 50%;
+    /* border-bottom: 3px solid black; */
+    cursor: pointer;
+    color: rgb(4, 4, 103);
+}
+.anch a svg{
+    /* position: fixed; */
+   
+    transform: scale(2);
+    margin-bottom: 30%;
+    color: rgb(4, 4, 103);
+    border-bottom: 1px solid black;
+}
