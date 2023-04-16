@@ -9,7 +9,6 @@ import {GiNotebook,GiReceiveMoney} from 'react-icons/gi';
 // import { from "framer-;
 // import Aos from "aos";
 // import "aos/dist/aos.css";
-import video from '../../video/earth.mp4';
 import { Box, Button, Card, CardActionArea, CardHeader, CardMedia, Grid, Typography } from '@mui/material';
 import WrapperComponent from '../wrapperComponent';
 import   {useNavigate }  from 'react-router-dom';
